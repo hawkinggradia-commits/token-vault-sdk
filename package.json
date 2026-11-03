@@ -1,0 +1,38 @@
+{
+  "name": "token-vault-sdk",
+  "version": "1.0.0",
+  "description": "Zero-latency, in-process hybrid AI gateway, local RAM prompt cache, and FinOps circuit breaker for OpenAI, Anthropic, and Gemini.",
+  "main": "token-vault.js",
+  "module": "token-vault.js",
+  "types": "token-vault.d.ts",
+  "files": [
+    "token-vault.js",
+    "token-vault.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node token-vault.js --self-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hawkinggradia-commits/token-vault-sdk.git"
+  },
+  "keywords": [
+    "openai",
+    "anthropic",
+    "llm-gateway",
+    "prompt-caching",
+    "finops",
+    "ai-gateway",
+    "gemini",
+    "token-vault",
+    "phrona"
+  ],
+  "author": "Phrona (https://www.phrona.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hawkinggradia-commits/token-vault-sdk/issues"
+  },
+  "homepage": "https://www.tockenvault.com"
+}

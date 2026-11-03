@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "token-vault-sdk"
+version = "1.0.0"
+authors = [
+  { name = "Phrona", email = "support@phrona.com" },
+]
+description = "Zero-latency, in-process hybrid AI gateway, local RAM prompt cache, and FinOps circuit breaker for OpenAI, Anthropic, and Gemini."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+keywords = [
+    "openai",
+    "anthropic",
+    "llm-gateway",
+    "prompt-caching",
+    "finops",
+    "ai-gateway",
+    "gemini",
+    "token-vault",
+    "phrona",
+]
+
+[project.urls]
+Homepage = "https://www.tockenvault.com"
+Documentation = "https://www.tockenvault.com"
+Repository = "https://github.com/hawkinggradia-commits/token-vault-sdk"
+Company = "https://www.phrona.com"
+
+[tool.setuptools]
+py-modules = ["token_vault"]
